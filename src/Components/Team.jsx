@@ -4,7 +4,7 @@ import youssefImage from '../assets/youssef.jpeg'
 
 const Team = () => {
     return (
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-white dark:bg-gray-900" id='team'>
             <div className="relative container px-6 py-10 mx-auto">
                 <div className="z-0 absolute top-[50%] max-md:hidden translate-y-[-50%] right-0 max-xl:left-[50%] max-xl:translate-x-[-50%] lg:w-[50%] max-w-full h-[90%] blur-3xl bg-gradient-radial from-blue-400 via-gray-900 to-transparent rounded-full opacity-60"></div>
                 

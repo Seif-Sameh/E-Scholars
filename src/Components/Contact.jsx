@@ -4,7 +4,7 @@ import { PiWhatsappLogoLight } from "react-icons/pi";
 
 const Contact = () => {
     return (
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-white dark:bg-gray-900" id='contact'>
             <div class="container px-6 py-12 mx-auto">
                 <div class="text-center ">
                     <p class="text-lg font-medium text-blue-500 ">Contact us</p>

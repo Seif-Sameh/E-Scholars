@@ -32,14 +32,14 @@ const Landing = () => {
                                 </div>
                             </div>
 
-                            <div className={`${toggleMenu ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white shadow-md lg:bg-transparent lg:dark:bg-transparent lg:shadow-none dark:bg-gray-900 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0`}>
+                            <div id='home' className={`${toggleMenu ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white shadow-md lg:bg-transparent lg:dark:bg-transparent lg:shadow-none dark:bg-gray-900 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0`}>
                                 <div className="-mx-4 lg:flex lg:items-center">
-                                    <a href="#" onClick={()=>setToggleMenu(false)} className="block mx-4 text-gray-700 capitalize dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Overview</a>
-                                    <a href="#" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Features</a>
-                                    <a href="#" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Live Demos</a>
-                                    <a href="#" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Pricing</a>
-                                    <a href="#" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Team</a>
-                                    <a href="#" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Contact</a>
+                                    <a href="#overview" onClick={()=>setToggleMenu(false)} className="block mx-4 text-gray-700 capitalize dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Overview</a>
+                                    <a href="#features" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Features</a>
+                                    <a href="#demos" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Live Demos</a>
+                                    <a href="#pricing" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Pricing</a>
+                                    <a href="#team" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Team</a>
+                                    <a href="#contact" onClick={()=>setToggleMenu(false)} className="block mx-4 mt-4 text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Contact</a>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,9 @@ const Landing = () => {
                         <div className="text-center">
                             <h1 className="text-3xl font-bold text-[#054bb4] lg:text-6xl">Transform Your Classroom</h1>
                             <h1 className="text-2xl font-bold text-white lg:text-4xl">Simplify Management, Maximize Learning!</h1>
+                            <a href="#overview">
                             <button className="w-[150px] px-5 py-2 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-[#054bb4] rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Get Started</button>
+                            </a>
                         </div>
                     </div>
                 </div>

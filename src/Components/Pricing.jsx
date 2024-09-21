@@ -3,7 +3,7 @@ import { TbCrown } from "react-icons/tb";
 
 const Pricing = () => {
     return (
-        <div class="bg-white dark:bg-gray-900">
+        <div class="bg-white dark:bg-gray-900" id='pricing'>
             <div class="container px-6 py-8 mx-auto">
                 <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Pricing</h1>
 
