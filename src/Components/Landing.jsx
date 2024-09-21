@@ -46,10 +46,11 @@ const Landing = () => {
                     </div>
                 </nav>
 
-                <div className="w-full bg-top bg-cover  h-[38rem]" style={{backgroundImage: `url(${image1})`}} >
-                    <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
+                <div className="w-full bg-top bg-cover h-[91vh]" style={{backgroundImage: `url(${image1})`}} >
+                    <div className="flex items-center px-4 justify-center w-full h-full bg-gray-900/50">
                         <div className="text-center">
-                            <h1 className="text-3xl font-semibold text-white lg:text-4xl">Transform Your Classroom: <span className="text-[#054bb4]">Simplify Management, Maximize Learning!</span></h1>
+                            <h1 className="text-3xl font-bold text-[#054bb4] lg:text-6xl">Transform Your Classroom</h1>
+                            <h1 className="text-2xl font-bold text-white lg:text-4xl">Simplify Management, Maximize Learning!</h1>
                             <button className="w-[150px] px-5 py-2 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-[#054bb4] rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Get Started</button>
                         </div>
                     </div>

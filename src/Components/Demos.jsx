@@ -11,8 +11,11 @@ const Demos = () => {
         Try our live demos to see how our platform enhances your teaching and streamlines class management!
         </p>
 
+        <div className='relative '>
+
         <div className="z-0 absolute inset-0 top-[50%] max-md:hidden translate-y-[-50%] left-[50%] translate-x-[-50%] lg:w-[90%] max-w-full h-[90%] blur-3xl bg-gradient-radial from-blue-400 via-gray-900 to-transparent rounded-full opacity-60"></div>
 
+        
         <div className="grid grid-cols-1 gap-10 mt-10  md:grid-cols-2 ">
             <div className="overflow-hidden relative rounded-lg md:h-[330px] lg:h-[400px] cursor-pointer group">
                     <img src={image2} alt="" className='w-full h-full'/>
@@ -36,7 +39,7 @@ const Demos = () => {
                 </div>
                 </div>
             </div>
-
+            </div>
         </div>
     </div>
 </section>
